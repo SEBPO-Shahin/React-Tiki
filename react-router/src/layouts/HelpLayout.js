@@ -8,8 +8,13 @@ export default function HelpLayout(){
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 
             <nav>
+<<<<<<< Updated upstream
                 <NavLink to="faq">View Faq</NavLink>
                 <NavLink to="contact">View Contact</NavLink>
+=======
+                <NavLink to="faq">Faq</NavLink>
+                <NavLink to="contact">Contact</NavLink>
+>>>>>>> Stashed changes
             </nav>
 
             <Outlet />

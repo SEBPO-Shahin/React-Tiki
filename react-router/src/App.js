@@ -23,13 +23,10 @@ import CareerLayout from './layouts/CareerLayout';
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<RootLayout />}>
-<<<<<<< Updated upstream
       <Route path='/' element={<Home />} />
       <Route path='about' element={<About />} />
-=======
       <Route index element={<Home />} />
       <Route path="about" element={<About />} />
->>>>>>> Stashed changes
       <Route path="help" element={<HelpLayout />}>
         <Route path="faq" element={<Faq />}/>
         <Route path="contact" element={<Contact />} />
